@@ -14,6 +14,7 @@ import com.google.zxing.integration.android.IntentResult;
 
 public class MainActivity extends AppCompatActivity {
     Button btnScan;
+    int idPessoa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
